@@ -5,7 +5,7 @@ Converts callbacks to AsyncIterables
 ## Example
 
 ```typescript
-import { AsyncGeneratorCallback } from "https://deno.land/x/async_generator_callback";
+import { AsyncGeneratorCallback } from "https://deno.land/x/async_generator_callback/mod.ts";
 
 const messages = new AsyncGeneratorCallback<Message>();
 
